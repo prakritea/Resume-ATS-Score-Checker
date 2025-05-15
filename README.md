@@ -47,35 +47,8 @@ ats-resume-checker/
 ⚙️ How to Run Locally
 Clone the Repository
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/ats-resume-checker.git
-cd ats-resume-checker
-Install Dependencies
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Start the API
-If using FastAPI:
 
-bash
-Copy
-Edit
-cd api
-uvicorn main:app --reload
-Run the Streamlit App
-In a new terminal:
-
-bash
-Copy
-Edit
-cd app
-streamlit run streamlit_app.py
-🖼️ Screenshots
-Upload Resume	Job Description Match
 
 📌 To-Do / Future Improvements
  Add support for multiple resume uploads
